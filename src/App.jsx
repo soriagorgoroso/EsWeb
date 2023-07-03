@@ -1,20 +1,23 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./Components/NavBar";
 import Cards from "./Components/Cards";
-import Card from "react-bootstrap/Card";
-
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
-import { Container, Row, Col } from "react-bootstrap";
 import BackGroundStrip from "./Components/BackGroundStrip";
 import Service from "./Components/Service";
 import Extra from "./Components/Extra";
+
+import "./App.css";
+import "./BackGroundStrip.css";
 
 function App() {
   return (
     <>
       <NavBar />
+      <div className="background-strip"></div>;
       <BackGroundStrip />
-      <h1 className="title">Estadisitcas</h1>
+      <h1 className="title">Estadísticas</h1>
       <Container>
         <Row className="flex-sm-row flex-column-reverse mt-3 mb-3">
           <Col>
