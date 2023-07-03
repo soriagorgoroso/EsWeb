@@ -43,12 +43,12 @@ function App() {
           </Col>
         </Row>
         <Row>
-          <Col className="mt-3 secondCardContainer">
+          <Col className="mt-3 secondCardContainer col-4">
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
           </Col>
-          <Col className="mt-3">
+          <Col className="mt-3 col-8 ">
             <Service />
             <Extra />
           </Col>
