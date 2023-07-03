@@ -5,7 +5,9 @@ import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Container, Row, Col } from "react-bootstrap";
-import BackgroundStrip from "./Components/BackgroundStrip";
+import BackgroundStrip from "./Components/BackGroundStrip";
+import Service from "./Components/Service";
+import Extra from "./Components/Extra";
 
 function App() {
   return (
@@ -41,18 +43,14 @@ function App() {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="mt-3">
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
           </Col>
-          <Col>
-            <Card className="m-3" border="secondary" style={{ width: "18rem" }}>
-              <Card.Header>Header</Card.Header>
-              <Card.Body>
-                <Card.Title>Primary Card Title</Card.Title>
-              </Card.Body>
-            </Card>
+          <Col className="mt-3">
+            <Service />
+            <Extra />
           </Col>
         </Row>
       </Container>
