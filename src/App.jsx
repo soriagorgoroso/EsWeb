@@ -4,7 +4,6 @@ import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./Components/NavBar";
 import Cards from "./Components/Cards";
-import BackGroundStrip from "./Components/BackGroundStrip";
 import Service from "./Components/Service";
 import Extra from "./Components/Extra";
 
@@ -16,7 +15,6 @@ function App() {
     <>
       <NavBar />
       <div className="background-strip"></div>;
-      <BackGroundStrip />
       <h1 className="title">Estadísticas</h1>
       <Container>
         <Row className="flex-sm-row flex-column-reverse mt-3 mb-3">
