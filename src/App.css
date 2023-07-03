@@ -1,0 +1,9 @@
+.cardContainer {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin: 50px auto;
+  text-align: center; /* Alinea el texto al centro */
+}
