@@ -8,7 +8,6 @@ import Service from "./Components/Service";
 import Extra from "./Components/Extra";
 
 import "./App.css";
-import "./BackGroundStrip.css";
 
 function App() {
   return (
