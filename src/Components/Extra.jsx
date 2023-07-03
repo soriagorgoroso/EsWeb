@@ -24,6 +24,21 @@ function Extra() {
             <td>2</td>
           </tr>
           <tr>
+            <td>Primer año</td>
+            <td>6</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Primer año</td>
+            <td>6</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Primer año</td>
+            <td>6</td>
+            <td>2</td>
+          </tr>
+          <tr>
             <td>Infantil</td>
             <td>2</td>
             <td>2</td>
