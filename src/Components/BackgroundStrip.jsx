@@ -1,8 +1,8 @@
 import React from "react";
 import "./BackGroundStrip.css";
 
-function BackgroundStrip() {
+function BackGroundStrip() {
   return <div className="background-strip"></div>;
 }
 
-export default BackgroundStrip;
+export default BackGroundStrip;
