@@ -43,12 +43,19 @@ function App() {
           </Col>
         </Row>
         <Row>
-          <Col className="mt-3 secondCardContainer col-4">
+          <Col
+            xs={4}
+            sm={4}
+            md={4}
+            lg={4}
+            xl={4}
+            className="mt-3 secondCardContainer "
+          >
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
             <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
           </Col>
-          <Col className="mt-3 col-8 ">
+          <Col xs={8} sm={8} md={8} lg={8} xl={8} className="mt-3">
             <Service />
             <Extra />
           </Col>
