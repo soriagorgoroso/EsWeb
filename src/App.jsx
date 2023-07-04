@@ -8,6 +8,7 @@ import Service from "./Components/Service";
 import Extra from "./Components/Extra";
 
 import "./App.css";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 }
