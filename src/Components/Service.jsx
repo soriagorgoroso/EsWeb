@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 
-function Service() {
+export default function Service() {
   return (
     <>
       <Table striped bordered hover variant="light" className="shadow">
@@ -58,5 +58,3 @@ function Service() {
     </>
   );
 }
-
-export default Service;

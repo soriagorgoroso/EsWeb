@@ -2,9 +2,8 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import "./NavBar.css"; // Importa el archivo CSS para estilos personalizados
-
-function NavBar() {
+import "./NavBar.css";
+export default function NavBar() {
   return (
     <div className="navbarContainer">
       <Navbar
@@ -21,19 +20,19 @@ function NavBar() {
           />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="#link" id="navBarLink">
+              <Nav.Link href="Gestion" id="navBarLink">
                 Gestion
               </Nav.Link>
-              <Nav.Link href="#link" id="navBarLink">
+              <Nav.Link href="Galeria" id="navBarLink">
                 Galeria
               </Nav.Link>
-              <Nav.Link href="#link" id="navBarLink">
+              <Nav.Link href="Servicios" id="navBarLink">
                 Servicios
               </Nav.Link>
-              <Nav.Link href="#link" id="navBarLink">
+              <Nav.Link href="Sobre mi" id="navBarLink">
                 Sobre mi
               </Nav.Link>
-              <Nav.Link href="#link" id="navBarLink">
+              <Nav.Link href="Contacto" id="navBarLink">
                 Contacto
               </Nav.Link>
             </Nav>
@@ -43,5 +42,3 @@ function NavBar() {
     </div>
   );
 }
-
-export default NavBar;

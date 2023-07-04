@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <Navbar bg="light" data-bs-theme="light" className="shadow-lg">
       <Container className="justify-content-center">
@@ -9,6 +9,4 @@ const Footer = () => {
       </Container>
     </Navbar>
   );
-};
-
-export default Footer;
+}

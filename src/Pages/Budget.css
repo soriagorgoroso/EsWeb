@@ -1,0 +1,29 @@
+.title {
+  margin: 50px auto;
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.customColumn .background-strip {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 50px;
+  height: 140%;
+  background-color: grey;
+  z-index: -1;
+}
+@media (max-width: 630px) {
+  #backGroundStrip {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    height: 100%;
+    z-index: -1;
+    background-color: grey;
+  }
+  .cashCard {
+    margin: 2px;
+  }
+}

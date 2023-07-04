@@ -1,7 +1,7 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 
-function Extra() {
+export default function Extra() {
   return (
     <>
       <Table striped bordered hover variant="light" className="shadow">
@@ -73,5 +73,3 @@ function Extra() {
     </>
   );
 }
-
-export default Extra;

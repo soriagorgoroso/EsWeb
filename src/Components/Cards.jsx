@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import "./Cards.css";
-function Cards({ title, subTitle, styles }) {
+export default function Cards({ title, subTitle, styles }) {
   return (
     <div
       id="cardContainer"
@@ -28,5 +28,3 @@ function Cards({ title, subTitle, styles }) {
     </div>
   );
 }
-
-export default Cards;
