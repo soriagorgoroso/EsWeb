@@ -18,6 +18,7 @@ function Cards({ title, subTitle, styles }) {
           justifyContent: "start",
           alignItems: "center",
         }}
+        className="shadow"
       >
         <Card.Body>
           <Card.Title style={{ fontSize: "1rem" }}>{title}</Card.Title>

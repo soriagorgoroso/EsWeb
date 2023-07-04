@@ -13,28 +13,28 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="background-strip"></div>;
       <h1 className="title">Estadísticas</h1>
       <Container>
-        <Row className="flex-sm-row flex-column-reverse mt-3 mb-3">
-          <Col>
-            <Card border="dark" style={{}}>
+        <Row className="">
+          <Col className=" customColumn">
+            <div id="backGroundStrip" className="background-strip"></div>
+            <Card border="dark" className="shadow cashCard">
               <Card.Body>
                 <p>Recibidos</p>
                 <Card.Title>120.000</Card.Title>
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card border="dark" style={{}}>
+          <Col className="">
+            <Card border="dark" className="shadow cashCard">
               <Card.Body>
                 <p>Pendientes</p>
                 <Card.Title>30.000</Card.Title>
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card border="dark" style={{}}>
+          <Col className="">
+            <Card border="dark" className="shadow cashCard">
               <Card.Body>
                 <p>Totales</p>
                 <Card.Title>150.000</Card.Title>
@@ -49,11 +49,11 @@ function App() {
             md={4}
             lg={4}
             xl={4}
-            className="mt-3 secondCardContainer "
+            className="mt-3 secondCardContainer"
           >
-            <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
-            <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
-            <Cards className="" title="Ingresos Liquidos" subTitle="$120.000" />
+            <Cards title="Ingresos Liquidos" subTitle="$120.000" />
+            <Cards title="Ingresos Liquidos" subTitle="$120.000" />
+            <Cards title="Ingresos Liquidos" subTitle="$120.000" />
           </Col>
           <Col xs={8} sm={8} md={8} lg={8} xl={8} className="mt-3">
             <Service />

@@ -4,7 +4,7 @@ import Table from "react-bootstrap/Table";
 function Extra() {
   return (
     <>
-      <Table striped bordered hover variant="light">
+      <Table striped bordered hover variant="light" className="shadow">
         <thead>
           <tr>
             <th>Servicios</th>
