@@ -6,13 +6,7 @@ import "./NavBar.css";
 export default function NavBar() {
   return (
     <div className="navbarContainer">
-      <Navbar
-        expand="sm"
-        bg="light"
-        className="rounded-4"
-        variant="light"
-        id="navBar"
-      >
+      <Navbar expand="sm" bg="" className="rounded-4" variant="" id="navBar">
         <Container fluid>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"

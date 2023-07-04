@@ -11,6 +11,7 @@ export default function Cards({ title, subTitle, styles }) {
       className="mt-3"
     >
       <Card
+        border="info"
         bg={"light"}
         style={{
           width: "18rem",
@@ -18,7 +19,7 @@ export default function Cards({ title, subTitle, styles }) {
           justifyContent: "start",
           alignItems: "center",
         }}
-        className="shadow"
+        className="shadow border-2"
       >
         <Card.Body>
           <Card.Title style={{ fontSize: "1rem" }}>{title}</Card.Title>

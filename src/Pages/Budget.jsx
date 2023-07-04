@@ -19,7 +19,7 @@ export default function Budget() {
         <Row className="">
           <Col className=" customColumn">
             <div id="backGroundStrip" className="background-strip"></div>
-            <Card border="dark" className="shadow cashCard">
+            <Card border="success" className="shasdow cashCard border-2">
               <Card.Body>
                 <p>Recibidos</p>
                 <Card.Title>120.000</Card.Title>
@@ -27,7 +27,7 @@ export default function Budget() {
             </Card>
           </Col>
           <Col className="">
-            <Card border="dark" className="shadow cashCard">
+            <Card border="danger" className="shadow cashCard border-2">
               <Card.Body>
                 <p>Pendientes</p>
                 <Card.Title>30.000</Card.Title>
@@ -35,7 +35,7 @@ export default function Budget() {
             </Card>
           </Col>
           <Col className="">
-            <Card border="dark" className="shadow cashCard">
+            <Card border="primary" className="shadow cashCard ">
               <Card.Body>
                 <p>Totales</p>
                 <Card.Title>150.000</Card.Title>
