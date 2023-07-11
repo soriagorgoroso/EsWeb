@@ -82,7 +82,8 @@ export default function Galeria() {
         </Container>
       </Navbar>
       {/* Carrousel */}
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      {/* Carrousel */}
+      <Carousel activeIndex={index} controls={false} indicators={false}>
         {photos.map((photo) => {
           return (
             <Carousel.Item key={photo.id} className="custom-carousel-item">
@@ -100,13 +101,11 @@ export default function Galeria() {
           );
         })}
       </Carousel>
-      );
       {/* Prueba imagenes */}
-      <Image src="holder.js/100px250" fluid />
       <Container className="justify-content-center align-items-center">
         <div style={{}}>
           <Row className="justify-content-center align-items-top m-4">
-            <Col xs={6} md={4}>
+            <Col xs={8} md={8} lg={4}>
               <Card style={{ width: "18rem", margin: "20px" }}>
                 <Card.Img variant="top" src={photos[1]?.urls.small} />
                 <Card.Body>
@@ -118,7 +117,7 @@ export default function Galeria() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={6} md={4}>
+            <Col xs={8} md={8} lg={4}>
               <Card style={{ width: "18rem", margin: "20px" }}>
                 <Card.Img variant="top" src={photos[5]?.urls.small} />
                 <Card.Body>
@@ -130,7 +129,7 @@ export default function Galeria() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col xs={6} md={4}>
+            <Col xs={8} md={8} lg={4}>
               <Card style={{ width: "18rem", margin: "20px" }}>
                 <Card.Img variant="top" src={photos[9]?.urls.small} />
                 <Card.Body>
