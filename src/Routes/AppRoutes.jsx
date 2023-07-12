@@ -5,12 +5,13 @@ import Servicios from "../Pages/Servicios";
 import Galeria from "../Pages/Galeria";
 import SobreMi from "../Pages/SobreMi";
 import Error from "../Pages/Error";
+import Home from "../Pages/Home";
 
 function AppRouter() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Budget />,
+      element: <Home />,
       errorElement: <Error />,
     },
     {
