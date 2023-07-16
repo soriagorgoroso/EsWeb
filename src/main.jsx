@@ -4,11 +4,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Error from "./Pages/Error.jsx";
 import Budget from "./Pages/Budget.jsx";
 import App from "./App.jsx";
+import Galeria from "./Pages/Galeria.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Budget />,
+    element: <Galeria />,
     errorElement: <Error />,
   },
   {

@@ -37,24 +37,81 @@ export default function Home() {
           <a href="pagina.html">UBER UNS & KONTAKT</a>
         </div>
       </div>
-
       {/* Galería */}
-      <Row>
+
+      <div className="containerPhotos">
         {photos.map((photo) => (
-          <Col xs={6} md={4} key={photo.id} className="hover-effect">
-            <div className="overlay">
-              <p className="text">{photo.user.first_name}</p>
+          <div className="image-container" key={photo.id}>
+            <div className="hover-effect">
+              <div className="overlay">
+                <p className="text">{photo.user.first_name}</p>
+              </div>
             </div>
-            <div className="image-container">
-              <Image
-                src={photo.urls.small}
-                alt={photo.alt_description}
-                className="img-fluid"
-              />
-            </div>
-          </Col>
+            <img
+              src={photo.urls.small}
+              alt={photo.alt_description}
+              className="img-fluid"
+            />
+          </div>
         ))}
-      </Row>
+        {photos.map((photo) => (
+          <div className="image-container" key={photo.id}>
+            <div className="hover-effect">
+              <div className="overlay">
+                <p className="text">{photo.user.first_name}</p>
+              </div>
+            </div>
+            <img
+              src={photo.urls.small}
+              alt={photo.alt_description}
+              className="img-fluid"
+            />
+          </div>
+        ))}
+        {photos.map((photo) => (
+          <div className="image-container" key={photo.id}>
+            <div className="hover-effect">
+              <div className="overlay">
+                <p className="text">{photo.user.first_name}</p>
+              </div>
+            </div>
+            <img
+              src={photo.urls.small}
+              alt={photo.alt_description}
+              className="img-fluid"
+            />
+          </div>
+        ))}
+        {photos.map((photo) => (
+          <div className="image-container" key={photo.id}>
+            <div className="hover-effect">
+              <div className="overlay">
+                <p className="text">{photo.user.first_name}</p>
+              </div>
+            </div>
+            <img
+              src={photo.urls.small}
+              alt={photo.alt_description}
+              className="img-fluid"
+            />
+          </div>
+        ))}
+        {photos.map((photo) => (
+          <div className="image-container" key={photo.id}>
+            <div className="hover-effect">
+              <div className="overlay">
+                <p className="text">{photo.user.first_name}</p>
+              </div>
+            </div>
+            <img
+              src={photo.urls.small}
+              alt={photo.alt_description}
+              className="img-fluid"
+            />
+          </div>
+        ))}
+      </div>
+
       {/* Footer */}
       {/* NavBar */}
     </div>
